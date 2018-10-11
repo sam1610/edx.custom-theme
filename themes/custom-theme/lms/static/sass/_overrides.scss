@@ -1,0 +1,32 @@
+.global-header{
+    background-color:beige;
+}
+.home > header {
+    background-image: url("/static/custom-theme/images/logo.png");    
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+
+    .outer-wrapper {
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+    .title {
+        // background: transparent;
+        background-image: url("/static/custom-theme/images/logo.png");    
+        background-size:contain;
+        background-repeat: no-repeat;
+
+        box-shadow: none;
+        margin-left: 0;
+        // display: none;
+
+        > .heading-group h1 {
+            color: #fff;
+            text-shadow: none;
+        }
+        > .heading-group p {
+            color: #fff;
+        }
+    }
+}
